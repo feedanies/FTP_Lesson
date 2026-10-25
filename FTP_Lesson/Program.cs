@@ -13,6 +13,8 @@ namespace FTP_Lesson
 
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.InputEncoding = Encoding.UTF8;
             while (true)
             {
                 Console.WriteLine("\n1 - Faylların siyahısı (Get)");
