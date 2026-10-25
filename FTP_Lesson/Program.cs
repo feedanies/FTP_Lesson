@@ -7,7 +7,7 @@ namespace FTP_Lesson
 {
     internal class Program
     {
-        static string server = "ftp://172.20.208.126/";
+        static string server = "ftp://127.0.0.1/";
         static string user = "test";
         static string pass = "1234";
 
